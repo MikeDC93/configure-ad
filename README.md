@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 4. Creating admin and users in Active Directory
 - Step 5. Joinging client 1 to the domain
 - Step 6. allowing non administrators accesess to use remote desktop
-- Step 7. Creating users and logging into client one with them  
+- Step 7. Creating users and logging into client 1 with one of them  
 
 <h2>Deployment and Configuration Steps</h2>
 
