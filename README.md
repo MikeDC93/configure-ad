@@ -55,9 +55,15 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
     
   </p>
   Step 2. Create connectivity between the domain controller (DC-1) and client 1
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+ <p></p> 
+ 
+  
+-Log into DC-1 with remote desktop 
+
+-In remote desktop enable ICMPv4 in the windows firewall.
+
+<p><img src="https://i.imgur.com/Wdp177A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 
 <p>
