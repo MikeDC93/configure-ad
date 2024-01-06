@@ -62,7 +62,9 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
 
 -In remote desktop enable ICMPv4 in the windows firewall.
 
-<p><img src="https://i.imgur.com/Wdp177A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/VW8iKzP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/6cuKDRO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br />
 
