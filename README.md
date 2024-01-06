@@ -36,15 +36,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 Step 1. Setup virtual machines in azure (Domain controller and client 1)
+  
+  -Create VM (Windows Server 2022) named DC-1
+  
+  -Create VM (Windows 10 Pro) named Client-1 
 <p><img src="https://i.imgur.com/Wdp177A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<p>
-  
-<p>
 
-
-2.  Change DC-1 NIC private address from dynamic to static
+Change DC-1 NIC private address from dynamic to static
 
 <p><img src="https://i.imgur.com/68rMBQQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
