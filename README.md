@@ -65,6 +65,25 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
 <p><img src="https://i.imgur.com/VW8iKzP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p><img src="https://i.imgur.com/6cuKDRO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+-Log into Client-1 with remote desktop
+
+-While logged into Client-1 ensure connectivity with DC-1 by pinging DC-1 private address
+<p><img src="https://i.imgur.com/ZeYNLn3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/qeiQTKd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+  
+</p>
+ Step 3. Installing Active Directory<p>
+   
+ 
+ 
+  <p>
+  -Using DC-1 remote desktop install Active Directory Domain Services using server manager
+    <p><img src="https://i.imgur.com/pFckTNa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    
+    </p>
+  -Create a new forest www. (anything) .com and promte DC-1 into a Domain Controller
+  <p><img src="https://i.imgur.com/idN2zMp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 
