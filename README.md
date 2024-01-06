@@ -121,8 +121,19 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
 
   Step 5. Joinging client 1 to the domain
 
- -In azure go to Client-1 and set the DNS settings to DC-1 private address
+ -In azure go to Client-1 and set the DNS settings to DC-1 private address then restart Client-1
   <p><img src="https://i.imgur.com/8RnXYZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  -Log into Client-1 and join Client-1 to the domain.
+  
+  -In Client-1 remote desktop go to system and rename this PC Advanced
+  <p><img src="https://i.imgur.com/VCxA0NS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+    -Log into DC-1 (Domain Controller) and verify Client-1 shows up in Active Directory Users and Computers in the computers container
+  <p><img src="https://i.imgur.com/zxYvfc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+  <p><img src="https://i.imgur.com/5jsClqs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+
 
 
 
