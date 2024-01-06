@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 3. Installing Active Directory 
 - Step 4. Creating admin and users in Active Directory
 - Step 5. Joinging client 1 to the domain
-- Step 6. allowing non administrators accesess to use remote desktop
+- Step 6. Allowing non administrators accesess to use remote desktop
 - Step 7. Creating users and logging into client 1 with one of them  
 
 <h2>Deployment and Configuration Steps</h2>
@@ -131,7 +131,25 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
 
     -Log into DC-1 (Domain Controller) and verify Client-1 shows up in Active Directory Users and Computers in the computers container
   <p><img src="https://i.imgur.com/zxYvfc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
-  <p><img src="https://i.imgur.com/5jsClqs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+
+    Step 6. Allowing non administrators accesess to use remote desktop
+
+    -Log into Client-1 as thedomain.com\jane-admin and open system properties.
+  <p><img src="https://i.imgur.com/kZoNtbc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+  <p><img src="https://i.imgur.com/F37C4ak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+
+    
+    -Click "Remote Desktop", And under "User Accounts" select users that can remotely accses this computer add "Domain Users" 
+  <p><img src="https://i.imgur.com/F37C4ak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+  <p><img src="https://i.imgur.com/s45C6L7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  -You can now log into Client-1 as a normal, non-administrative user now
+
+  Step 7. Creating users and logging into client 1 with one of them  
+
+
 
 
 
