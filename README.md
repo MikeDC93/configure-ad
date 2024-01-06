@@ -34,10 +34,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-Step 1. Setup virtual machines in azure (Domain controller and client 1)
+Step 1. Setup virtual machines in azure (Domain controller and client 1) (remember user name and password)
   
-  -Create VM (Windows Server 2022) named DC-1
+  -Create VM (Windows Server 2022) named DC-1 
   
   -Create VM (Windows 10 Pro) named Client-1 
 <p><img src="https://i.imgur.com/Wdp177A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -49,12 +48,10 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
 <p><img src="https://i.imgur.com/68rMBQQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 -Make sure DC-1 and Client-1 are in the same virtual network
-
- <p><img src="https://i.imgur.com/tNG5Lam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <p><img src="https://i.imgur.com/LZPeYfc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/tNG5Lam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/LZPeYfc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     
-  </p>
-  Step 2. Create connectivity between the domain controller (DC-1) and client 1
+Step 2. Create connectivity between the domain controller (DC-1) and client 1
  <p></p> 
  
   
@@ -73,6 +70,8 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
 <p>
   
 </p>
+ 
+ 
  Step 3. Installing Active Directory<p>
    
  
@@ -81,10 +80,59 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
   -Using DC-1 remote desktop install Active Directory Domain Services using server manager
     <p><img src="https://i.imgur.com/pFckTNa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     
-    </p>
-  -Create a new forest www. (anything) .com and promte DC-1 into a Domain Controller
+    
+  -Create a new forest www. (can be anything) .com and promte DC-1 into a Domain Controller (remember what you name it)
   <p><img src="https://i.imgur.com/idN2zMp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+  -Restart DC-1
+   <p><img src="https://i.imgur.com/z6H8FYp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  -Log back into DC-1 as user thedomain.com\labuser
+  <p><img src="https://i.imgur.com/xJNcPW9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  Step 4. Creating admin and users in Active Directory
+
+  -In Active Directory Users and Computers create an Organizational Unit called “_EMPLOYEES”<p>
+
+  
+  -Create a new organizational unit named "ADMINS"
+  <p><img src="https://i.imgur.com/aOXMuRh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><
+                                                                                                          
+                                                                                                          
+  </p>
+  -Create a new user named Jane Doe(can be any name)<P>
+  <p><img src="https://i.imgur.com/VlKqFwk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><
+  <p><img src="https://i.imgur.com/3BoaHnQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><
+
+
+
+  -Move or drag Jane Doe to admins orginizational group
+  <p><img src="https://i.imgur.com/uMLogdQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+-Right click Jane Doe and go into Properties and in the members of tab add Jane Doe to Domain Admins
+  <p><img src="https://i.imgur.com/5jsClqs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  -Log out of DC-1 and log back in as thedomain.com\jane-admin  (use Jane Doe password)<p>
+
+
+
+  
+
+
+  Step 5. Joinging client 1 to the domain
+
+ -In azure go to Client-1 and set the DNS settings to DC-1 private address
+  <p><img src="https://i.imgur.com/8RnXYZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+
+
+
+  </P>
+
+
+
+
+    
 <br />
 
 <p>
