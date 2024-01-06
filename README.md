@@ -47,7 +47,12 @@ Step 1. Setup virtual machines in azure (Domain controller and client 1)
 Change DC-1 NIC private address from dynamic to static
 
 <p><img src="https://i.imgur.com/68rMBQQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+  Make sure DC-1 and Client-1 are in the same virtual network
+
+ <p><img src="https://i.imgur.com/tNG5Lam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <p><img src="https://i.imgur.com/LZPeYfc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
