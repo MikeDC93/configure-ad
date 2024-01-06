@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-Step 1.  Create a vm named DC-1 and create a second vm named Client-1 
+Step 1. Setup virtual machines in azure (Domain controller and client 1)
 <p><img src="https://i.imgur.com/Wdp177A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
