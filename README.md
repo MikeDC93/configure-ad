@@ -149,6 +149,20 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
 
   Step 7. Creating users and logging into client 1 with one of them  
 
+  -Log into DC-1 as jane-admin
+  
+  -Open PowerShell_ise as an administrator
+  <p><img src="https://i.imgur.com/RGCGgjT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  -Create a new file and paste the provided script file below.
+  https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
+
+  <p><img src="https://i.imgur.com/906rbzV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+
+  
+
+
 
 
 
