@@ -175,7 +175,7 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
 
   <p><img src="https://i.imgur.com/15bKx5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
-  Finish.
+ End.
 
 
 
