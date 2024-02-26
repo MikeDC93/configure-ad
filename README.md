@@ -152,14 +152,37 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
   -Log into DC-1 as jane-admin
   
   -Open PowerShell_ise as an administrator
+
+  <p><img src="https://i.imgur.com/gIk3vNk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
   <p><img src="https://i.imgur.com/RGCGgjT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
   -Create a new file and paste the provided script file below.
   https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
 
-  <p><img src="https://i.imgur.com/906rbzV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+  -Run the scripts and watch the new accounts being created
+
+  <p><img src="https://i.imgur.com/tCD91Rr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
 
+  -While the accounts are being created go into Active Directory and view the new accounts in _EMPLOYEES OU
+
+  <p><img src="https://i.imgur.com/ZKrinbB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  -log out of Client-1 and attepmt to log into Client-1 with one ot the new users/accounts
+
+  <p><img src="https://i.imgur.com/GkDazSd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  <p><img src="https://i.imgur.com/15bKx5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
+
+  Finish.
+
+
+
+  
+
+
+    
   
 
 
@@ -170,18 +193,4 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
 
 
 
-  </P>
-
-
-
-
-    
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  
