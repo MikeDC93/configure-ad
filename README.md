@@ -6,9 +6,9 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+
+
 
 <h2>Environments and Technologies Used</h2>
 
@@ -81,7 +81,7 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
     <p><img src="https://i.imgur.com/pFckTNa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     
     
-  -Create a new forest www. (can be anything) .com and promte DC-1 into a Domain Controller (remember what you name it)
+  -Create a new forest www .(can be anything) .com and promte DC-1 into a Domain Controller (remember what you name it)
   <p><img src="https://i.imgur.com/idN2zMp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
   -Restart DC-1
