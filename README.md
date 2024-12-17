@@ -119,7 +119,7 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
   
 
 
-  Step 5. Joinging client 1 to the domain
+  Step 5. Joining client 1 to the domain
 
  -In azure go to Client-1 and set the DNS settings to DC-1 private address then restart Client-1
   <p><img src="https://i.imgur.com/8RnXYZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
