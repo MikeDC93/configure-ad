@@ -129,19 +129,19 @@ Step 2. Create connectivity between the domain controller (DC-1) and client 1
   -In Client-1 remote desktop go to system and rename this PC Advanced
   <p><img src="https://i.imgur.com/VCxA0NS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
-    -Log into DC-1 (Domain Controller) and verify Client-1 shows up in Active Directory Users and Computers in the computers container
+  -Log into DC-1 (Domain Controller) and verify Client-1 shows up in Active Directory Users and Computers in the computers container
   <p><img src="https://i.imgur.com/zxYvfc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
 
-    Step 6. Allowing non administrators accesess to use remote desktop
+   Step 6. Allowing non administrators accesess to use remote desktop
 
-    -Log into Client-1 as thedomain.com\jane-admin and open system properties.
+   -Log into Client-1 as thedomain.com\jane-admin and open system properties.
   <p><img src="https://i.imgur.com/kZoNtbc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
   <p><img src="https://i.imgur.com/F37C4ak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
 
     
-    -Click "Remote Desktop", And under "User Accounts" select users that can remotely accses this computer add "Domain Users" 
+  -Click "Remote Desktop", And under "User Accounts" select users that can remotely accses this computer add "Domain Users" 
   <p><img src="https://i.imgur.com/F37C4ak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
   <p><img src="https://i.imgur.com/s45C6L7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><<p>
 
